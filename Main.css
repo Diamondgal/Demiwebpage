@@ -2,7 +2,7 @@ body {
     font-family: "Poppins",sans-serif;
     background: #F0F4F3;
     width: 100vw;
-    height:100vh;
+    /* height:100vh; */
     transition-property: background-color;
     transition-duration: .5s;
     transition-timing-function: linear;
@@ -22,7 +22,7 @@ body:hover {
     border: 10px;
     border-radius: 10%;
     font:24px;
-    padding:    232px 15px;
+    padding:    213px 15px;
     height: 40%;
 
 
@@ -82,11 +82,12 @@ footer {
     margin: 24px 1%;
     width:95%;
     border: 10px;
-    border-radius: 10%;
+    border-radius: 150px;
     font-size:24px;
     padding:    24px 15px;
     justify-content: center;
-    align-content: center
+    align-content: center;
+    text-align: center;
   }
   .spin {
     cursor: pointer;
@@ -105,7 +106,7 @@ footer {
     position: relative;
     width:  95px;
     left:43%;
-    bottom: -327px;
+    bottom: 32px;
   }
   .side {
     height: 95px;
@@ -130,15 +131,15 @@ footer {
   }
   .demiformal{
     width: 10%;
-    position: absolute;
+    
     height: 30px;
     left:1%;
   }
   .demiformal img{
     height: 226px;
     width:  177px;
-    position:  fixed;
-    right:  1110px;
+    
+    right:  1320px;
     top:  50%;
   }
   .demifun {
@@ -184,4 +185,47 @@ footer {
   th {
     font-weight: bold;
   }
-  
+  .scrollover{
+    display: inline-block;
+    background-color: white;
+    border-radius: 6px;
+    width: 90%;
+    padding:  24px 15px;
+    text-align: center;
+    margin: 9% 42px;
+    color: #000;
+    height: 218px;
+  }
+  .professionalinfo{
+    display: inline-block;
+    background-color: white;
+    border-radius: 6px;
+    width:  90%;
+    padding: 24px 15px;
+    text-align: center;
+    margin: -5% 42px;
+    color-adjust: #000;
+    height: 218px;
+  }
+  .personalinfo{
+    display: inline-block;
+    background-color: white;
+    border-radius: 6px;
+    width:  90%;
+    padding: 24px 15px;
+    text-align: center;
+    margin: 10% 42px;
+    color: #000;
+    height: 218px;
+  }
+  .threeimage{
+    display: inline-block;
+    background-color: white;
+    border-radius: 6px;
+    width: 90%;
+    padding: 24px 15px;
+    text-align: center;
+    margin: 10% 42px;
+    color: black;
+    height: 218px;
+  }
