@@ -79,10 +79,10 @@ footer {
     background:white;
     display:   block;
     float: absolute;
-    margin: 24px 1%;
+    margin: 25px 1%;
     width:95%;
     border: 10px;
-    border-radius: 150px;
+    border-radius: 70px;
     font-size:24px;
     padding:    24px 15px;
     justify-content: center;
@@ -188,44 +188,91 @@ footer {
   .scrollover{
     display: inline-block;
     background-color: white;
-    border-radius: 6px;
+    border-radius: 33px;
     width: 90%;
     padding:  24px 15px;
     text-align: center;
-    margin: 9% 42px;
+    margin: 25px 42px;
     color: #000;
-    height: 218px;
+    height: 240px;
   }
   .professionalinfo{
     display: inline-block;
     background-color: white;
-    border-radius: 6px;
+    border-radius: 33px;
     width:  90%;
     padding: 24px 15px;
     text-align: center;
-    margin: -5% 42px;
+    margin: 25px 42px;
     color-adjust: #000;
-    height: 218px;
+    height: 332px;
   }
   .personalinfo{
     display: inline-block;
     background-color: white;
-    border-radius: 6px;
+    border-radius: 33px;
     width:  90%;
     padding: 24px 15px;
     text-align: center;
-    margin: 10% 42px;
+    margin: 25px 42px;
     color: #000;
-    height: 218px;
+    height: 332px;
   }
   .threeimage{
     display: inline-block;
     background-color: white;
-    border-radius: 6px;
+    border-radius: 33px;
     width: 90%;
     padding: 24px 15px;
     text-align: center;
-    margin: 10% 42px;
+    margin: 9% 42px;
     color: black;
-    height: 218px;
+    height: 240px;
   }
+
+  /* .original,
+.box {
+  border-radius: 6px;
+} */
+.original {
+  /* background: #eaeaed; */
+  /* border: 1px dashed #cecfd5; */
+  float: left;
+  margin: -6px 91px;
+}
+.box {
+  background: #2db34a;
+  height: 175px;
+  line-height: 95px;
+  text-align: center;
+  transform: perspective(200px) rotateX(45deg);
+  width: 235px;
+  overflow:hidden;
+}
+.spin {
+  cursor: pointer;
+  transform-style: preserve-3d;
+}
+.spin:hover {
+    animation: spin 5s linear infinite;
+}
+@keyframes spin {
+  0% {
+    transform: rotateY(0deg);
+  }
+  100% {
+    transform: rotateY(360deg);
+  }
+}
+.demiwork img{
+  display: inline-block;
+  width: 100%;
+}
+.demiwork2 img{
+  display:  inline-block;
+  width: 100%;
+}
+.demiwork3 img{
+  display:  inline-block;
+  width: 100%;
+}
