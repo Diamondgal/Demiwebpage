@@ -6,7 +6,7 @@ body {
     transition-property: background-color;
     transition-duration: .5s;
     transition-timing-function: linear;
-    trans
+    
 
 }
 body:hover {
@@ -24,6 +24,7 @@ body:hover {
     font:24px;
     padding:    213px 15px;
     height: 40%;
+    box-shadow: 1px 1px gray;
 
 
 }
@@ -36,7 +37,8 @@ body:hover {
     border: 10px;
     border-radius: 10%;
     font:24px;
-    padding:    24px 15px
+    padding:    24px 15px;
+    box-shadow: 1px 1px gray;
 }
 a{
     color: aqua;
@@ -88,7 +90,27 @@ footer {
     justify-content: center;
     align-content: center;
     text-align: center;
+    box-shadow: 1px 1px gray
   }
+  header:hover {
+    background-color:   #EFBFA8;
+    width: 100vw;
+    /* height:100vh; */
+    transition-property: background-color;
+    transition-duration: .5s;
+    transition-timing-function: linear;
+}
+
+/* .col-1:hover{
+  background-color:   #EFBFA8;
+  width: 100vw;
+  /* height:100vh; */
+  transition-property: background-color;
+  transition-duration: .5s;
+  transition-timing-function: linear;
+} */
+
+
   .spin {
     cursor: pointer;
     transform-style: preserve-3d;
@@ -172,8 +194,18 @@ footer {
     float: left;
     height: 10%;
     width: 100%;
-  
+    box-shadow: 1px 1px gray;
   }
+  .scrollover:hover {
+    background-color:   #EFBFA8;
+    width: 100vw;
+    /* height:100vh; */
+    transition-property: background-color;
+    transition-duration: .5s;
+    transition-timing-function: linear;
+}
+
+
   table {
     border-collapse: collapse;
   }
@@ -195,6 +227,7 @@ footer {
     margin: 25px 42px;
     color: #000;
     height: 240px;
+    box-shadow: 1px 1px gray;
   }
   .professionalinfo{
     display: inline-block;
@@ -206,7 +239,26 @@ footer {
     margin: 25px 42px;
     color-adjust: #000;
     height: 332px;
+    box-shadow: 1px 1px gray;
   }
+
+  .personalinfo:hover {
+    background-color:   #EFBFA8;
+    width: 100vw;
+    /* height:100vh; */
+    transition-property: background-color;
+    transition-duration: .5s;
+    transition-timing-function: linear;
+}
+
+  .professionalinfo:hover {
+  background-color:   #EFBFA8;
+  width: 100vw;
+  /* height:100vh; */
+  transition-property: background-color;
+  transition-duration: .5s;
+  transition-timing-function: linear;
+}
   .personalinfo{
     display: inline-block;
     background-color: white;
@@ -217,6 +269,7 @@ footer {
     margin: 25px 42px;
     color: #000;
     height: 332px;
+    box-shadow: 1px 1px gray;
   }
   .threeimage{
     display: inline-block;
@@ -228,7 +281,17 @@ footer {
     margin: 9% 42px;
     color: black;
     height: 240px;
+    box-shadow: 1px 1px gray;
   }
+
+  .threeimage:hover {
+    background-color:   #EFBFA8;
+    width: 100vw;
+    /* height:100vh; */
+    transition-property: background-color;
+    transition-duration: .5s;
+    transition-timing-function: linear;
+}
 
   /* .original,
 .box {
