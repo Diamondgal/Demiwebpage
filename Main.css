@@ -57,7 +57,7 @@ a:visited {
 
 /* mouse over link */
 a:hover {
-  color: #EFBFA8;
+  color: black;
 }
 
 /* selected link */
@@ -94,7 +94,7 @@ footer {
   }
   header:hover {
     background-color:   #EFBFA8;
-    width: 100vw;
+    /* width: 100vw; */
     /* height:100vh; */
     transition-property: background-color;
     transition-duration: .5s;
@@ -129,6 +129,7 @@ footer {
     width:  95px;
     left:43%;
     bottom: 32px;
+
   }
   .side {
     height: 95px;
@@ -163,6 +164,21 @@ footer {
     
     right:  1320px;
     top:  50%;
+    /* #1 */
+    border: 5px solid hsl(0, 0%, 40%);
+  
+     /* #2 */
+    padding: 5px;
+    background: hsl(0, 0%, 20%);
+  
+     /* #3 */
+    outline: 5px solid hsl(0, 0%, 60%);
+  
+    /* #4 AND INFINITY!!! (CSS3 only) */
+    box-shadow:
+      0 0 0 10px hsl(0, 0%, 80%),
+      0 0 0 15px hsl(0, 0%, 90%);
+  
   }
   .demifun {
     width:  100%;
@@ -198,7 +214,7 @@ footer {
   }
   .scrollover:hover {
     background-color:   #EFBFA8;
-    width: 100vw;
+    /* width: 100vw; */
     /* height:100vh; */
     transition-property: background-color;
     transition-duration: .5s;
@@ -244,7 +260,7 @@ footer {
 
   .personalinfo:hover {
     background-color:   #EFBFA8;
-    width: 100vw;
+    /* width: 100vw; */
     /* height:100vh; */
     transition-property: background-color;
     transition-duration: .5s;
@@ -253,7 +269,7 @@ footer {
 
   .professionalinfo:hover {
   background-color:   #EFBFA8;
-  width: 100vw;
+  /* width: 100vw; */
   /* height:100vh; */
   transition-property: background-color;
   transition-duration: .5s;
@@ -286,7 +302,7 @@ footer {
 
   .threeimage:hover {
     background-color:   #EFBFA8;
-    width: 100vw;
+    /* width: 100vw; */
     /* height:100vh; */
     transition-property: background-color;
     transition-duration: .5s;
@@ -338,4 +354,31 @@ footer {
 .demiwork3 img{
   display:  inline-block;
   width: 100%;
+}
+h1{
+  font-family: 'Amaranth', sans-serif;
+
+}
+
+.meetdemi {
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%; 
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+.centre {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
